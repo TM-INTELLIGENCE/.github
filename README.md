@@ -25,6 +25,18 @@ Workflow [`.github/workflows/sync-profile.yml`](.github/workflows/sync-profile.y
 
 Il régénère le README et tente de synchroniser descriptions + topics GitHub.
 
+## README de chaque repo produit
+
+Même branding (logo + titre + blurb) injecté en tête de chaque `README.md` :
+
+```bash
+python3 scripts/apply_product_readme_header.py \
+  --repo oktoneo-pick \
+  --readme /path/to/oktoneo-pick/README.md
+```
+
+Marqueurs `BEGIN/END:OKTONEO-HEADER` — idempotent. Blurbs = `catalog/repos.yml`.
+
 ## Check local
 
 ```bash
@@ -32,4 +44,4 @@ pip install pyyaml
 python3 scripts/generate_profile_readme.py --check
 ```
 
-Plane : **OPS-112**
+Plane : **OPS-112** · **OPS-113**
