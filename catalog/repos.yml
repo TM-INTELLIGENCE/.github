@@ -1,0 +1,60 @@
+# Source of truth for the org profile README.
+# Edit this file → run scripts/generate_profile_readme.py (or wait for the weekly Action).
+# Do not hand-edit profile/README.md (generated between markers).
+
+org:
+  name: TM INTELLIGENCE
+  product: Oktoneo
+  tagline: Logiciel de prise de commande terrain, logistique et intelligence commerciale pour la distribution B2B.
+  website: https://oktoneo.fr
+  github: https://github.com/TM-INTELLIGENCE
+  contact: https://oktoneo.fr
+
+repos:
+  - name: TMINTELLIGENCE-OKTONEO
+    title: Oktoneo SFA
+    blurb: Prise de commande terrain, simulation tarifaire, catalogue, ML rupture/churn — monorepo produit (BlitzPAL).
+    homepage: https://oktoneo.fr
+    topics: [oktoneo, sfa, erp, python, fastapi]
+    sync_description: true
+    description: "Oktoneo SFA — prise de commande terrain, tarif, logistique & ML (BlitzPAL)"
+
+  - name: oktoneo-pick
+    title: Oktoneo Pick
+    blurb: Préparation entrepôt / BL / Teliae — PWA + API FastAPI.
+    homepage: null
+    topics: [oktoneo, warehouse, picking, fastapi]
+    sync_description: true
+    description: "Oktoneo Pick — prépa entrepôt / BL / Teliae"
+
+  - name: oktoneo-fret
+    title: Oktoneo Fret
+    blurb: TMS fret (cotation LTL/FTL) — UI + API autonomes.
+    homepage: https://fret.tmintelligence.fr
+    topics: [oktoneo, tms, freight, fastapi]
+    sync_description: true
+    description: "Oktoneo Fret — TMS fret (mock v0)"
+
+  - name: oktoneo-ship
+    title: Oktoneo Ship
+    blurb: Génération d’étiquettes e-commerce (rempl. ShippyPro) + pipeline facture_ecommerce Softwell.
+    homepage: null
+    topics: [oktoneo, shipping, labels, ecommerce]
+    sync_description: true
+    description: "Oktoneo Ship — étiquettes e-commerce & facture_ecommerce Softwell"
+
+  - name: oktoneo-station
+    title: Oktoneo Station
+    blurb: Station chargeur (réplicat TELIAE) — runtime lab.
+    homepage: https://station.tmintelligence.fr
+    topics: [oktoneo, teliae, shipping-station]
+    sync_description: true
+    description: "Oktoneo Station — station chargeur (réplicat TELIAE), dépôt autonome"
+
+  - name: oktoneo-karrio
+    title: Oktoneo Karrio
+    blurb: Stack Karrio (plugins transporteurs + compose lab).
+    homepage: null
+    topics: [oktoneo, karrio, carriers, plugins]
+    sync_description: true
+    description: "Karrio Oktoneo (plugins + compose lab)"
